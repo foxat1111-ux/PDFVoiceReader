@@ -16,7 +16,7 @@ jobs:
 
       - name: Extract source ZIP
         run: |
-          unzip -o PDFVoiceReader-source.zip -d build_source
+          unzip -o PDFVoiceReader-source-fixed.zip -d build_source
 
       - name: Set up Java
         uses: actions/setup-java@v4
